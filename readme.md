@@ -14,4 +14,5 @@ By default Java Script ES6 features are not available in Node js.
 
 - The import, export keywords, Arrow functions will not work.
 - Add `type:module` in package.json file to support ES6 features
-- Do not add `require` & use `import` type of statements instead. The require will not be supported and throw error.
+- Prefer not to add `require` & use `import` instead. The require will not be supported and throw error.
+- If we want to use require then add the two statements for `createRequire`
